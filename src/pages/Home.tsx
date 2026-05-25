@@ -53,15 +53,15 @@ export default function Home() {
           {
             title: 'Contact',
             links: [
-              { label: 'studio@helix.build', href: '#' },
-              { label: 'San Francisco, CA', href: '#' },
+              { label: 'buildhelix@gmail.com', href: '#' },
+              { label: 'Mumbai, India', href: '#' },
             ],
           },
           {
             title: 'Social',
             links: [
               { label: 'GitHub', href: '#' },
-              { label: 'Dribbble', href: '#' },
+              { label: 'WhatsApp', href: 'https://wa.me/919004556455' },
               { label: 'LinkedIn', href: '#' },
             ],
           },

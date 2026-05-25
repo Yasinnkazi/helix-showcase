@@ -49,7 +49,7 @@ export default function Footer({ brandName, tagline, columns, socialLinks }: Foo
 
         <div className="mt-12 pt-8 border-t border-white/5 flex flex-col md:flex-row items-center justify-between gap-4">
           <p className="text-sm text-white/30">
-            &copy; {new Date().getFullYear()} {brandName}. All rights reserved.
+            &copy; {new Date().getFullYear()} {brandName}. All rights reserved. Built by <a href="https://helix.build" class="text-white/50 hover:text-white transition-colors">HELIX</a>.
           </p>
           <div className="flex items-center gap-4">
             {socialLinks?.map((social) => (
